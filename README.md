@@ -12,4 +12,4 @@ Don't forget to tell the judges how you should showcased HP AI Studio's capabili
 Include a README with the following: 
 
 - Steps for judging and testing 
-- A detailed explanation of models downloaded and methods used 
+- *******A detailed explanation of models downloaded and methods used*******
