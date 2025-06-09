@@ -1,6 +1,6 @@
 # ZEREBERO: Manufacturing Defects
-Open-source web application in HP AI Studio
 ### Dynamic vision agent cobots for dark automotive manufacturing factories, leveraging synthetic sensor data and Reinforcement Learning within NVIDIA Omniverse Digital Twins to achieve robotic autonomy.
+![](https://github.com/lucylow/hpaistudio/blob/main/images/image%20(3).jpeg?raw=true)
 --------
 
 - model registration to MLFlow
