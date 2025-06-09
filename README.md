@@ -9,4 +9,5 @@ Include a README with the following:
 1. Steps for judging and testing 
 2. A detailed explanation of --> A.I. NVDIA models downloaded 
 3. A detailed explanation of --> methods used
+4. Include any dependencies or requirements
 
