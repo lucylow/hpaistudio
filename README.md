@@ -8,3 +8,5 @@ Include a README with the following:
 
 - Steps for judging and testing 
 - A detailed explanation of models downloaded and methods used
+- A detailed explanation of methods used
+
