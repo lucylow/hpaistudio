@@ -3,6 +3,22 @@
 ![](https://github.com/lucylow/hpaistudio/blob/main/images/image%20(3).jpeg?raw=true)
 --------
 
+📁 Project Structure
+├── demo/                          # Registered MLFlow artifact folder
+│   ├── index.html                # Web app frontend entry point
+│   ├── app.js                    # App logic to call Swagger endpoints
+│   ├── style.css                 # Styling (optional)
+│   └── assets/                   # Any icons, images, mock videos
+├── model/                        # Model training and registration code
+│   ├── train_multimodal.py       # Main training script
+│   ├── model.pkl                 # Saved model artifact
+│   └── register_to_mlflow.py     # MLFlow registration code
+├── README.md                     # Setup + replication instructions
+└── requirements.txt              # Python dependencies
+
+
+
+
 ZEREBRO's mission is to create truly intelligent, autonomous robotic systems for automotive manufacturing, leveraging multiple AI modalities for comprehensive perception and decision-making. The provided "Predicting Manufacturing Defects Dataset" represents a crucial tabular data modality that complements ZEREBRO's core vision-based capabilities (VehicleTypeNet) and synthetic image generation (JANUS PRO). While VehicleTypeNet and JANUS PRO primarily deal with visual and simulated visual data, this tabular dataset provides invaluable macro-level operational intelligence and predictive foresight regarding defect rates.
 
 
