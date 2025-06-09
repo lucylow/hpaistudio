@@ -21,9 +21,41 @@
 
 ZEREBRO's mission is to create truly intelligent, autonomous robotic systems for automotive manufacturing, leveraging multiple AI modalities for comprehensive perception and decision-making. The provided "Predicting Manufacturing Defects Dataset" represents a crucial tabular data modality that complements ZEREBRO's core vision-based capabilities (VehicleTypeNet) and synthetic image generation (JANUS PRO). While VehicleTypeNet and JANUS PRO primarily deal with visual and simulated visual data, this tabular dataset provides invaluable macro-level operational intelligence and predictive foresight regarding defect rates.
 
+## 🧩 How to Replicate
 
-- model registration to MLFlow
-- deployed to Swagger through AI Studio
+### 1. Clone This Repo
+```bash
+git clone https://github.com/yourrepo/ai-twin-demo.git
+cd ai-twin-demo
+
+2. Set Up Environment
+pip install -r requirements.txt
+
+3. Run MLFlow Server (Local)
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 127.0.0.1 --port 5000
+
+4. Train & Register Model
+python model/train_multimodal.py
+python model/register_to_mlflow.py
+
+5. Deploy Model via AI Studio
+Open HP AI Studio
+
+
+Connect to your MLFlow
+
+
+Deploy the registered model via Swagger
+
+
+Copy the local endpoint URL (e.g., http://127.0.0.1:8000/predict)
+
+
+6. Run Frontend
+Simply open demo/index.html in a browser.
+ Ensure app.js points to the Swagger endpoint.
+
+
 
 -------
 
