@@ -6,7 +6,7 @@
 
 Include a README with the following: 
 
-- 1. Steps for judging and testing 
-- 2. A detailed explanation of models downloaded and methods used
-- 3. A detailed explanation of methods used
+1. Steps for judging and testing 
+2. A detailed explanation of models downloaded and methods used
+3. A detailed explanation of methods used
 
