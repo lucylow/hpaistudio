@@ -1,0 +1,6 @@
+Don't forget to tell the judges how you should showcased HP AI Studio's capabilities while addressing real-world industry challenges. Be specific. Include links where possible.
+
+explain the technical workflow implemented with HP AI Studio
+outline the challenges addressed and solutions developed
+highlight key features of HP AI Studio that were leveraged
+describe lessons learned and best practices discovered
