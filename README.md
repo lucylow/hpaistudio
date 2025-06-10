@@ -17,14 +17,15 @@
 └── requirements.txt              # Python dependencies
 
 
-
+------------------------------------
 
 ZEREBRO's mission is to create truly intelligent, autonomous robotic systems for automotive manufacturing, leveraging multiple AI modalities for comprehensive perception and decision-making. The provided "Predicting Manufacturing Defects Dataset" represents a crucial tabular data modality that complements ZEREBRO's core vision-based capabilities (VehicleTypeNet) and synthetic image generation (JANUS PRO). While VehicleTypeNet and JANUS PRO primarily deal with visual and simulated visual data, this tabular dataset provides invaluable macro-level operational intelligence and predictive foresight regarding defect rates.
 
+------------------------------------
+
 ## 🧩 How to Replicate
 
-### 1. Clone This Repo
-```bash
+1. Clone This Repo
 git clone https://github.com/yourrepo/ai-twin-demo.git
 cd ai-twin-demo
 
@@ -57,8 +58,8 @@ Simply open demo/index.html in a browser.
 
 
 
+------------------------------------
 -------
-
 
 
 # Manufacturing Defects Dataset
